@@ -1,0 +1,174 @@
+* {
+  font-family: "poppins", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin: 47px 0 178px 42px;
+}
+
+.link-header {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.875px;
+  text-align: center;
+  margin-right: 32px;
+  color: #17233d;
+  cursor: pointer;
+  text-decoration: none;
+  letter-spacing: 0.88px;
+}
+
+.botao {
+  width: 124px;
+  height: 51px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-align: center;
+  background-color: #6fbf44;
+  border: 1px solid #4cb538;
+  border-radius: 3px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+.botao:hover {
+  opacity: 0.6;
+}
+
+.botao:active {
+  opacity: 0.8;
+}
+
+.img-wide {
+  width: 595.18px;
+  height: 500px;
+  top: 246px;
+  margin-left: 121px;
+  display: inline-block;
+}
+
+section {
+  display: inline-block;
+  margin-left: 84.82px;
+  width: 493px;
+}
+
+h1 {
+  font-size: 62px;
+  font-weight: 700;
+  line-height: 82px;
+  text-align: left;
+  color: #161a49;
+  letter-spacing: 0.6px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 33px;
+  color: #4b505a;
+  margin-top: 47px;
+  margin-bottom: 55px;
+  letter-spacing: 0.5px;
+}
+
+.link {
+  width: 112px;
+  height: 27px;
+  top: 707px;
+  left: 801px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #6fbf44;
+  cursor: pointer;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.link-header:hover {
+  text-decoration: underline;
+}
+
+.link:hover {
+  text-decoration: underline;
+  opacity: 0.5;
+}
+
+.link:active {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1300px) {
+  .link-header {
+    display: none;
+  }
+
+  .botao {
+    width: 91px;
+    height: 31px;
+    margin-left: 420px;
+    margin-top: -20px;
+  }
+
+  h1 {
+    width: 278px;
+    height: 60px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.6px;
+    text-align: center;
+    display: block;
+    margin-left: 57px;
+  }
+
+  p {
+    width: 304px;
+    height: 165px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    display: block;
+    margin-left: 43px;
+    margin-top: 29px;
+    margin-bottom: 26px;
+  }
+
+  .link {
+    width: 112px;
+    height: 27px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-left: 139px;
+  }
+
+  section {
+    position: relative;
+    margin-top: -74px;
+  }
+
+  .img-wide {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    padding: 0;
+    margin-top: 280px;
+    margin-left: 80px;
+    margin-bottom: 6px;
+  }
+}
